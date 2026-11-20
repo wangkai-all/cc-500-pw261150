@@ -1,0 +1,14 @@
+{
+  "name": "commission-settlement",
+  "version": "1.0.0",
+  "description": "平台佣金结算分析：订单拆分、优惠分摊、退款、补贴、跨期结算、费率版本、差异批次、争议与审批",
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "seed": "node --disable-warning=ExperimentalWarning src/seed.js",
+    "verify": "node --disable-warning=ExperimentalWarning test/verify.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
